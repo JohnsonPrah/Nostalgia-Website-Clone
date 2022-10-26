@@ -1,6 +1,4 @@
 import React from "react";
-import gogg from "../assets/images/gogg.png";
-import { AiFillStar } from "react-icons/ai"
 import { FaFacebook } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 
