@@ -10,18 +10,16 @@ const Shop = () => {
   
     
     return (
-  <div >
-    <section className="home bg-review relative bg-cover bg-center grid place-items-center py-6 md:py-16 lg:py-28" > 
-    <div className="absolute h-full w-full top-0 left-0  bg-[rgba(0,0,0,0.2)] z-[1]"> </div>
-          
-        <h5 className="text-colprm z-10 text-center text-lg md:text-2xl lg:text-3xl font-bold ">
-            CONNECTING YOU WITH
-        </h5>
-       <h6 className="text-white z-10 text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-6">
-            THE WORLD'S BEST BEANS
-       </h6> 
-    
-        <div className="bg-colprm z-10 w-16 h-[3px] mb-8"></div>
+  <div  className="w-full">
+    <section className="home bg-review relative bg-cover bg-center grid place-items-center px-2 py-6 md:py-16 lg:py-28" > 
+        <div className="absolute h-full w-full top-0 left-0  bg-[rgba(0,0,0,0.2)] z-[1]"> </div>  
+            <h5 className="text-colprm z-10 text-center text-lg md:text-2xl lg:text-3xl font-bold ">
+                CONNECTING YOU WITH
+            </h5>
+            <h6 className="text-white z-10 text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-6">
+                THE WORLD'S BEST BEANS
+            </h6>
+           <div className="bg-colprm z-10 w-16 h-[3px] mb-8"></div>
 
        <img src={google} alt="google" className="w-8 h-8 z-10 rounded-full" /> 
        <p className="text-white text-2xl flex z-10 items-center justify-center">5.0 <AiFillStar className="text-yellow-500 ml-3"/><AiFillStar className="text-yellow-500"/><AiFillStar className="text-yellow-500"/><AiFillStar className="text-yellow-500"/><AiFillStar className="text-yellow-500"/><AiFillStar className="text-yellow-500"/> </p>
@@ -29,7 +27,7 @@ const Shop = () => {
       
     </section>
 
-    <section className=" py-16 lg:py-28 flex  flex-col md:flex-row items-center justify-center gap-8">
+    <section className="px- py-16 lg:py-28 flex  flex-col md:flex-row items-center justify-center gap-8">
         <div  className="grid place-items-center">
              <img src={ nosright} alt="nosright" className=""/>
             <h6 className="text-white font-bold mt-6">

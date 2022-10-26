@@ -10,7 +10,7 @@ import nosmalback from "../assets/images/nosmalback.jpg";
 const Ruby = () => {
   return (
       <div className="text-white pb-0">
-         <section className="bg-review bg-cover relative bg-center duration-500 hover:bg-colprm hover:text-white grid place-items-center py-6 md:py-16 lg:py-28" > 
+         <section className="px-2 bg-review bg-cover relative bg-center duration-500 hover:bg-colprm hover:text-white grid place-items-center py-6 md:py-16 lg:py-28" > 
          <div className="absolute h-full w-full top-0 left-0  bg-[rgba(0,0,0,0.2)] z-[1]"> </div>
           
         <h5 className="text-colprm z-10 text-center text-lg md:text-2xl lg:text-3xl font-bold ">
@@ -81,7 +81,7 @@ const Ruby = () => {
                 <div className="py-2 px-4 text-black text-lg bg-white border-2 border-white"> - </div>
                 <p className="py-2 px-4 text-white bg-transparent text-lg border border-white" > 1 </p>
                 <div className="py-2 px-4 text-black text-lg bg-white border-2 border-white"> + </div>
-                <p className="text-colprm border-2 py-2 px-10 text-xl">ADD TO CART</p>
+                <p className="text-colprm border-2 py-2 px-10 text-xs sm:text-xl">ADD TO CART</p>
             </div>
            
         </div>
@@ -97,8 +97,8 @@ const Ruby = () => {
         </p>
         < NavLink to='/about' className="text-colprm border-2 border-colprm my-8 font-bold text-xl center py-2 px-8  duration-500 hover:bg-colprm hover:text-white">  READ MORE </NavLink >
     </div>
-    <div className="py-10 grid place-items-center px-20 ">
-        <h3 className="text-3xl md:text-4xl lg:text-5xl  text-colprm font-bold mb-4">
+    <div className="py-10 grid place-items-center px-3 sm:px-20 ">
+        <h3 className="text-3xl text-center md:text-4xl lg:text-5xl  text-colprm font-bold mb-4">
             YOU MAY ALSO LIKE
         </h3>
         <div className="w-[5rem] h-[3px] bg-colprm mb-10"></div>

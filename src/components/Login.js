@@ -1,9 +1,9 @@
 import React from "react";
 const Login = () => {
   return (
-        <div className="px-16">            
+        <div className="px-3 sm:px-16">            
             <section className="py-[8rem] grid place-items-center">
-                <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl tracking-widest text-colprm">MY ACCOUNT</h1>
+                <h1 className="font-bold text-center text-2xl md:text-4xl lg:text-5xl tracking-widest text-colprm">MY ACCOUNT</h1>
                 <p className="bg-colprm w-20 h-1 mt-8 "></p>
             </section>
             <section className="py-10 grid place-items-center md:grid-cols-2 gap-10">

@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div className="className=w-full z-20 shadow-xl flex justify-between lg:px-20 md:px-16  items-start h-[7rem] px-4 ">  
-         <button onClick={()=> setToggle( prev => !prev)} className="text-white lg:hidden cursor-pointer mt-4">
+         <button onClick={()=> setToggle( prev => !prev)} className="text-white lg:hidden cursor-pointer mt-6 mr-6">
             <FiMenu  size={26} />
          </button> 
          <  NavLink to="/" > 
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <GrInstagram size={20} className="text-16 text-white cursor-pointer hover:text-colprm hover:translate-y-1"/>
                 < NavLink to='/login' className={({isActive}) => isActive ? activeLink : logg}> LOGIN </NavLink >
              </div>
-             <AiOutlineShoppingCart size={20} className="text-16 ml-6 text-white cursor-pointer hover:text-colprm hover:translate-y-1"/>
+             <AiOutlineShoppingCart size={20} className="text-16 mt-3 sm:mt-3 ml-6 text-white cursor-pointer hover:text-colprm hover:translate-y-1"/>
          </div> 
 
         

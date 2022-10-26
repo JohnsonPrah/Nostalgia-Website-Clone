@@ -8,7 +8,7 @@ import { GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
-     <div className=" px-12 py-12 md:px-14 grid place-items-center lg:px-6">
+     <div className=" px-3 sm:px-12 py-12 md:px-14 grid place-items-center lg:px-6">
         <div className="flex flex-col items-center justify-center gap-14 mb-12 md:flex md:flex-row md:flex-wrap md:justify-center md:items-center lg:grid lg:place-items-start lg:grid-cols-mygrid">
                
              <div className="flex flex-col items-center gap-2 md:items-start">

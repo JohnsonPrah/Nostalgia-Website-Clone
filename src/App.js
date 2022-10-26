@@ -9,6 +9,7 @@ import Cto from "./components/Cto"
 import Reviews from "./components/Reviews"
 import Login from "./components/Login"
 import About from "./components/About"
+import Contact from "./components/Contact"
 import Subscribe from "./components/Subscribe"
 import { Route,Routes } from "react-router-dom"
 
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/nostalgia" element={<Nostalgia /> } />
           <Route exact path="/subscribe" element={<Subscribe /> } />
           <Route exact path="/login" element={<Login /> } /> 
+          <Route exact path="/contact" element={<Contact /> } /> 
       </Routes>
       <Cto /> 
       <Footer />

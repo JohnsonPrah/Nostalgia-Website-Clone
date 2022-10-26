@@ -15,9 +15,9 @@ import { NavLink } from "react-router-dom";
 const About = () => {
   return (
       <div className="">
-       <section className="bg-about bg-cover py-[9rem] md:py-[4rem] lg:py-[9rem] flex flex-col items-center justify-center">
-            <h5 className="text-colprm font-bold text-4xl tracking-wider">OUR</h5>
-            <h5 className="text-colprm font-bold text-4xl tracking-wider">MISSION</h5>
+       <section className="bg-about bg-cover py-[5rem] px-4 lg:py-[9rem] flex flex-col items-center justify-center">
+            <h5 className="text-colprm font-bold  text-center text-4xl tracking-wider">OUR</h5>
+            <h5 className="text-colprm font-bold  text-center text-4xl tracking-wider">MISSION</h5>
             <div className="bg-colprm w-16 h-1 my-8"></div>
             <p className=" text-white text-center" >To provide the best quality coffee from social and environmentally responsible <br /> 
                 farms. We connect farmers and coffee enthusiasts to produce one of the best <br />
@@ -25,10 +25,10 @@ const About = () => {
             </p>
        </section>
 
-    <section className="ben px-16 py-36 grid place-items-center lg:grid-cols-2 gap-10 lg:gap-20">
+    <section className="ben px-4 sm:px-16 py-10 sm:py-36 grid place-items-center lg:grid-cols-2 gap-10 lg:gap-20">
         <img src={tripple} alt="tripple" className=""/>
         <div className="grid place-items-center">
-            <h3  className="text-colprm font-bold text-2xl md:text-4xl tracking-wider">COFFEE ENTHUSIASTS</h3>
+            <h3  className="text-colprm font-bold text-2xl md:text-4xl text-center tracking-wider">COFFEE ENTHUSIASTS</h3>
             <div className="bg-colprm w-16 h-1 my-1"></div>
             <p className="text-white mb-4 text-center">
                 Nostalgia Coffee was founded as a way to connect everyday home baristas with world leading coffee beans from award winning farms. In our store, every day, we hand blend and roast a selection of specialist beans, and promptly deliver them to customers. Consistent quality is important to us and you, so we roast our beans daily to meet demand.
@@ -39,10 +39,10 @@ const About = () => {
         </div>
     </section>
 
-    <section className="px-16 grid place-items-center lg:grid-cols-mygrids gap-20 py-16">
-        <div class="para-left">
-            <h2  className="text-colprm font-bold text-2xl md:text-3xl lg:text-4xl tracking-wider">WHO ARE WE</h2>
-            <div className="bg-colprm w-16 h-1 my-5"></div>
+    <section className="px-3 smpx-16 grid place-items-center lg:grid-cols-mygrids gap-20 py-16">
+        <div class="para-left flex flex-col">
+            <h2  className="text-colprm text-center font-bold text-2xl md:text-3xl lg:text-4xl tracking-wider">WHO ARE WE</h2>
+            <div className="bg-colprm w-16 h-1 self-center sm:self-start my-5"></div>
             <div className="grid md:grid-cols-2 gap-1 md:gap-5 lg:gap-10">
                 <p className="text-white mb-4">Mitchell and I both spent 4 years in the Australian army
                     , that’s where we met each other, and that’s where our
@@ -67,7 +67,7 @@ const About = () => {
         
     </section>
 
-    <section className="px-16 py-4 bg-aboutnos bg-cover bg-fixed">
+    <section className="px-4 sm:px-16 py-4 bg-aboutnos bg-cover bg-fixed">
         <div className="bg-colprm w-[2px] h-[10rem] my-5"></div>
         <h2 className="text-colprm font-bold text-2xl tracking-wider">NOSTALGIA <br /> BLEND</h2>
         <div className="bg-colprm w-16 h-[2px] my-4"></div>
@@ -103,8 +103,8 @@ const About = () => {
         </div>
     </section>
 
-    <section className="px-[5rem] grid place-items-center py-10">
-        <div className="grid grid-cols-3 gap-10">
+    <section className="px-4 sm:px-[5rem] grid place-items-center py-10">
+        <div className="grid grid-cols-3 gap-3 sm:gap-10">
             <img src={farmer} alt="farmer" className="w-full fit-cover h-full"/>
             <img src={workers} alt="workers" className="w-full fit-cover h-full"/>
             <img src={harvest} alt="harvest" className="w-full fit-cover h-full"/>
@@ -112,7 +112,7 @@ const About = () => {
         <p className="text-white my-8 md:my-14 font-bold text-lg text-center md:text-xl">
             THIS FARM CARRIES THE FOLLOWING CERTIFICATIONS:
         </p>
-        <img src={certs} alt="certs" className="h-[4rem]"/>
+        <img src={certs} alt="certs" className="h-[2.6rem] sm:h-[4rem]"/>
         <div className="bg-colprm w-16 h-1 my-6"></div>
         <p className="text-colprm italic text-center text-xl md:text-2xl mb-4">
             "What is essential to us is the human relationship, mutual respect, and also respect for the nature, and most of all, our passion for coffee. For me and for my family, coffee was never only coffee, for me coffee is the same as passion, coffee is life, coffee is movement"
@@ -121,7 +121,7 @@ const About = () => {
     </section>
 
 
-    <section className="px-16 flex flex-col items-end py-4 bg-aboutruby bg-cover bg-fixed">
+    <section className="px-4 sm:px-16 flex flex-col items-end py-4 bg-aboutruby bg-cover bg-fixed">
   
          <div className="bg-colprm w-[2px] h-[10rem] my-5"></div>
          <h2 className="text-ruby font-bold text-2xl tracking-wider">RUBY<br /> BLEND</h2>
@@ -150,7 +150,7 @@ const About = () => {
             <img src={aboutruby} alt="aboutruby" className="order-first md:order-none"/>
         </div>
     </section>
-    <section className="px-[5rem] grid place-items-center py-10">
+    <section className="px-4 sm:px-[5rem] grid place-items-center py-10">
         <div className="grid grid-cols-3 gap-10">
             <img src={farmer} alt="farmer" className="w-full fit-cover h-full"/>
             <img src={workers} alt="workers" className="w-full fit-cover h-full"/>
@@ -159,12 +159,12 @@ const About = () => {
         <p className="text-white my-8 md:my-14 font-bold text-center text-lg md:text-xl">
             THIS FARM CARRIES THE FOLLOWING CERTIFICATIONS:
         </p>
-        <img src={certs} alt="certs" className="h-[4rem]"/>
+        <img src={certs} alt="certs" className="h-[2.6rem] sm:h-[4rem]"/>
         
     </section>
 
 
-    <section className="px-16 bg-aboutemerald bg-cover bg-fixed">
+    <section className="px-4 sm:px-16 py-6 bg-aboutemerald bg-cover bg-fixed">
         <div className="bg-colprm w-[2px] h-[10rem] my-5"></div>
         <h2 className="text-emerald font-bold text-2xl tracking-wider uppercase">Emerald <br /> BLEND</h2>
         <div className="bg-colprm w-16 h-[2px] my-4"></div>
@@ -190,7 +190,7 @@ const About = () => {
         </div>
     </section>
 
-    <section className="px-[5rem] grid place-items-center py-10">
+    <section className="px-4 sm:px-[5rem] grid place-items-center py-10">
         <div className="grid grid-cols-3 gap-10">
             <img src={farmer} alt="farmer" className="w-full fit-cover h-full"/>
             <img src={workers} alt="workers" className="w-full fit-cover h-full"/>
@@ -199,7 +199,7 @@ const About = () => {
         <p className="text-white my-8 md:my-14 font-bold text-center text-lg md:text-xl">
             THIS FARM CARRIES THE FOLLOWING CERTIFICATIONS:
         </p>
-        <img src={certs} alt="certs" className="h-[4rem]"/>
+        <img src={certs} alt="certs" className="h-[2.6rem] sm:h-[4rem]"/>
         
     </section>
 
