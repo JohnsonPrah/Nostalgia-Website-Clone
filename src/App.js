@@ -21,14 +21,14 @@ function App() {
       <Navbar />
       <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/ruby" element={<Ruby />} />
-          <Route exact path="/reviews" element={<Reviews />} />
-          <Route exact path="/shop" element={<Shop />} />
-          <Route exact path="/nostalgia" element={<Nostalgia /> } />
-          <Route exact path="/subscribe" element={<Subscribe /> } />
-          <Route exact path="/login" element={<Login /> } /> 
-          <Route exact path="/contact" element={<Contact /> } /> 
+          <Route exact path="about" element={<About />} />
+          <Route exact path="ruby" element={<Ruby />} />
+          <Route exact path="reviews" element={<Reviews />} />
+          <Route exact path="shop" element={<Shop />} />
+          <Route exact path="nostalgia" element={<Nostalgia /> } />
+          <Route exact path="subscribe" element={<Subscribe /> } />
+          <Route exact path="login" element={<Login /> } /> 
+          <Route exact path="contact" element={<Contact /> } /> 
       </Routes>
       <Cto /> 
       <Footer />

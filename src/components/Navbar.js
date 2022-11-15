@@ -38,7 +38,7 @@ const Navbar = () => {
          
          <div className="flex-col justify-center items-center hidden lg:flex mt-4 gap-2">
             <div className="flex gap-6 justify-center items-center">
-                < NavLink to='/' className="text-16 text-white hover:text-colprm transiton-all duraton-500 ease-in"> HOME </NavLink >
+                < NavLink end to='/' className={({isActive}) => isActive ? activeLink : norm}> HOME </NavLink >
                 < NavLink to='/about' className={({isActive}) => isActive ? activeLink : norm}> ABOUT US </NavLink >
                 < NavLink to='/shop' onMouseEnter={()=> setDrop(true)} onMouseLeave={()=> setDrop(false)} className={({isActive}) => isActive ? actLink : act}> SHOP NOW <RiArrowDownSFill className="ml-1"/>
                    {drop && <div className="grid absolute top-[110%] w-[10rem] bg-black">
